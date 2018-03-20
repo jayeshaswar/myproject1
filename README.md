@@ -14,6 +14,8 @@ Install python-pip     // apt-get install python-pip
 Install verious requirements of python packages for project.                    // pip install -r requirements.txt                                                                                                                                                     
 Install remaining packages using source files (tar.gz )                         // python setup.py install
 
+Virtual environment is preferable. 
+
 
 --------------------------------------------------------------------DATABASE SETUP ------------------------------------------
 ----------------------------------------------------------
