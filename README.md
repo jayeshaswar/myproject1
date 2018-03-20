@@ -9,6 +9,7 @@ Use Python version  Python 2.7
 IDE :  Pycharm
 
 --------------------------------------------------------------------PROJECT DATA & DEPENDENCIES SETUP ------------------------------------------------------------------------------
+
 Install python-pip     // apt-get install python-pip                                                                                          
 Install verious requirements of python packages for project.                    // pip install -r requirements.txt                                                                                                                                                     
 Install remaining packages using source files (tar.gz )                         // python setup.py install
@@ -32,7 +33,9 @@ Make Database 'foodinspection' & Table 'data1' with column name " Id, F_name, Fa
 
 Number_of_Critical_violations, Number_of_Non_critical_violations, Violation_Link" 
 
+
 -------------------------------------------------Scrapy Code -----------------------------------------------------------------------------------------------------------------
+
 
 Start project in scrapy            //scrapy startproject Foodinspection
 
