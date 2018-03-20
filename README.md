@@ -34,7 +34,7 @@ Make Database 'foodinspection' & Table 'data1' with column name " Id, F_name, Fa
 Number_of_Critical_violations, Number_of_Non_critical_violations, Violation_Link" 
 
 
--------------------------------------------------Scrapy Code -----------------------------------------------------------------------------------------------------------------
+-------------------------------------------------SCRAPY CODE -----------------------------------------------------------------------------------------------------------------
 
 
 Start project in scrapy            //scrapy startproject Foodinspection
