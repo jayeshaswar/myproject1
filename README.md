@@ -1,5 +1,7 @@
 Project Name : FoodInspection
+
  ------------------------------------------------------------------- OPERATING SYSTEM SETUP ------------------------------------------------------------------------
+ 
 Install Operating System Ubuntu 16.04 (64-bits)
 
 Use Python version  Python 2.7
@@ -19,9 +21,9 @@ Install Mysql database server in ubuntu  // sudo apt-get install mysql-server-5.
 
 Install mysqlclient for python           // pip install mysqlclient
 
-Install some dependencies                // sudo apt-get install python-pip python-dev libmysqlclient-dev
+Install some dependencies                // sudo apt-get install python-pip python-dev libmysqlclient-dev 
+                                        // pip install MySQL-python
 
-                                         // pip install MySQL-python
 Install Mysql Workbench for GUI purpose  // sudo apt install mysql-workbench
 
 Set the Root user for mysql workbench    // user : root , password : xbyte
@@ -31,6 +33,7 @@ Make Database 'foodinspection' & Table 'data1' with column name " Id, F_name, Fa
 Number_of_Critical_violations, Number_of_Non_critical_violations, Violation_Link" 
 
 -------------------------------------------------Scrapy Code -----------------------------------------------------------------------------------------------------------------
+
 Start project in scrapy            //scrapy startproject Foodinspection
 
 set up pipelines.py's name into settings.py
